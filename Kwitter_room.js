@@ -17,7 +17,7 @@ const firebaseConfig = {
   
       });
       localStorage.setItem("room_name", room_name);
-      window.location = "XX_page.html"
+      window.location = "kwitterPage.html"
   }
   
   function getData() {
@@ -38,7 +38,7 @@ const firebaseConfig = {
   function redirectToRoomName(name) {
       console.log(name);
       localStorage.setItem("room_name", name);
-      window.location = "XX_page.html";
+      window.location = "kwitterPage.html";
   }
   
   function logout() {
